@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Events Demonstartion</h1>
+    <!--mouse events-->
+    <div class="section" id="mouse-events">
+        <h2>mouse events</h2>
+        <button id="hoverButton">hover on me</button>
+        <p class="message" id="hoverMessage">hover on the button to change the message.</p>
+    </div>
+    
+
+    <!--keyboard events-->
+    <div class="section" id="keyboard-events">
+        <h2>keyboard events</h2>
+        <input type="text" name="keyboardInput" id="keyboardInput" placeholder="type something">
+        <p class="message" id="keyMessage">your key pressed</p>
+    </div>
+    
+
+    <!--form events-->
+    <div class="section" id="form-events">
+        <h2>form events</h2>
+        <form id="form">
+            <input type="text" id="formInput" placeholder="enter something">
+            <button type="submit">Submit</button>
+        </form>
+        <p class="message" id="formMessage"></p>
+    </div>
+    
+    <!--focus and blur events-->
+    <div class="section" id="focus-blur-events">
+        <h2>focus and blur events</h2>
+        <input type="text" id="focusInput" placeholder="click here">
+        <p class="message" id="focusMessage">Click the input field to see change</p>
+    </div>
+
+
+    <!--events delegation-->
+    <div class="section" id="events-delegation">
+        <h2>events delegation</h2>
+        <div class="container" id="buttonContainer">
+            <button>Button 1</button>
+            <button>Button 2</button>
+            <button>Button 3</button>
+        </div>
+        <p class="message" id="delegationMessage">Click any button to show a message</p>
+    </div>
+
+</body>
+
+</html>
