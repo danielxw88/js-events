@@ -8,3 +8,11 @@ hoverButton.addEventListener("mouseover",()=>{
 hoverButton.addEventListener("mouseout",()=>{
     hoverMessage.textContent="hover on the button to change the message.";
 });
+
+//keyboard events
+const keyboardInput=document.getElementById("keyboardInput");
+const keyMessage=document.getElementById("keyMessage");
+
+keyboardInput.addEventListener("keydown",(event)=>{
+    keyMessage.textContent=`you pressed: ${event.key}`;
+});
