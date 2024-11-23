@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  .section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccccccac;
+    border-radius: 5px;
+  }
+  .container button {
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  .message {
+    color: blue;
+    font-weight: bold;
+  }
