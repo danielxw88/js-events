@@ -16,3 +16,12 @@ const keyMessage=document.getElementById("keyMessage");
 keyboardInput.addEventListener("keydown",(event)=>{
     keyMessage.textContent=`you pressed: ${event.key}`;
 });
+
+//form events
+const form=document.getElementById("form");
+const formMessage=document.getElementById("formMessage");
+
+form.addEventListener("submit",(event)=>{
+    event.preventDefault();
+    formMessage.textContent="Submitted successfully!";
+});
